@@ -12,9 +12,9 @@ bae_xunlei_proxy.py部署在国内服务器上sinapp py环境测试通过
 
 xunlei_proxy.py部署在一台服务器上，修改代码中的
 
-```proxy = 'seaaddress.sinaapp.com'
+`proxy = 'seaaddress.sinaapp.com'`
 
-eth = ('server_ip', 80)```
+`eth = ('server_ip', 80)`
 
 这个例子需要独占80端口。当然你可以通过配置nginx判断Host进行反代，但是这样会很麻烦你需要做urls.py很多的正则匹配。
 
